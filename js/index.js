@@ -2,7 +2,7 @@ window.addEventListener("keydown", e => {
     const key = document.getElementById(e.key);
     if (key){
         key.classList.add('joy');
-        document.getElementsByClassName("joy")[0].innerText="31415926";
+        document.getElementsByClassName("joy")[0].innerText="π, 8digits include 3";
     }
   });
   
